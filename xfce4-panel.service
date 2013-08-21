@@ -1,0 +1,9 @@
+[Unit]
+Description=Xfce4 Panel
+
+[Service]
+ExecStart=/usr/bin/xfce4-panel
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

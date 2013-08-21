@@ -1,0 +1,9 @@
+[Unit]
+Description=Xfdesktop
+
+[Service]
+ExecStart=/usr/bin/xfdesktop
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

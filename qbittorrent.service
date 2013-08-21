@@ -1,0 +1,9 @@
+[Unit]
+Description=qBittorrent
+
+[Service]
+ExecStart=/usr/bin/qbittorrent
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

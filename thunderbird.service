@@ -1,0 +1,9 @@
+[Unit]
+Description=Thunderbird Mail Client
+
+[Service]
+ExecStart=/usr/bin/thunderbird
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

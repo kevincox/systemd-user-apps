@@ -1,0 +1,9 @@
+[Unit]
+Description=xbindkeys
+
+[Service]
+ExecStart=/usr/bin/xbindkeys --nodaemon
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

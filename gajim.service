@@ -1,0 +1,9 @@
+[Unit]
+Description=Gajim XMPP Client
+
+[Service]
+ExecStart=/usr/bin/gajim
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

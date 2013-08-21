@@ -1,0 +1,9 @@
+[Unit]
+Description=Metacity Window Manager
+
+[Service]
+ExecStart=/usr/bin/metacity
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

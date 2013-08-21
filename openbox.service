@@ -1,0 +1,9 @@
+[Unit]
+Description=Openbox Window Manager
+
+[Service]
+ExecStart=/usr/bin/openbox
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

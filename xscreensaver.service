@@ -1,0 +1,9 @@
+[Unit]
+Description=XScreenSaver
+
+[Service]
+ExecStart=/usr/bin/xscreensaver -nosplash
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target
