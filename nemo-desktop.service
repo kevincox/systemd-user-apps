@@ -1,0 +1,9 @@
+[Unit]
+Description=Nemo Desktop Icons.\
+
+[Service]
+ExecStart=/usr/bin/nemo --no-default-window
+Restart=on-abort
+
+[Install]
+WantedBy=graphical.target

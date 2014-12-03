@@ -1,8 +1,8 @@
 [Unit]
-Description=PulseAudio sound server.
+Description=Pidgin Messenger
 
 [Service]
-ExecStart=/usr/bin/pulseaudio
+ExecStart=/usr/bin/pidgin
 Restart=on-abort
 
 [Install]

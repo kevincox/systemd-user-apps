@@ -1,0 +1,9 @@
+[Unit]
+Description=Gnome Keyring Daemon
+
+[Service]
+ExecStart=/usr/bin/gnome-keyring-daemon -f
+Restart=on-abort
+
+[Install]
+WantedBy=default.target

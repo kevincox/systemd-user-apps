@@ -3,7 +3,10 @@ Description=Seafile Applet
 
 [Service]
 ExecStart=/usr/bin/seafile-applet
+
 Restart=on-abort
+
+IOSchedulingClass=idle
 
 [Install]
 WantedBy=graphical.target

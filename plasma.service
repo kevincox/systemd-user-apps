@@ -1,8 +1,8 @@
 [Unit]
-Description=PulseAudio sound server.
+Description=Plasma Desktop
 
 [Service]
-ExecStart=/usr/bin/pulseaudio
+ExecStart=/usr/bin/plasma-desktop --nofork
 Restart=on-abort
 
 [Install]

@@ -1,8 +1,8 @@
 [Unit]
-Description=PulseAudio sound server.
+Description=VLC media player.
 
 [Service]
-ExecStart=/usr/bin/pulseaudio
+ExecStart=/usr/bin/vlc -f
 Restart=on-abort
 
 [Install]

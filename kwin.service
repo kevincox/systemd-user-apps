@@ -1,8 +1,8 @@
 [Unit]
-Description=Xfce4 Window Manager
+Description=KWin Window Manager
 
 [Service]
-ExecStart=/usr/bin/xfwm4
+ExecStart=/usr/bin/kwin
 Restart=on-abort
 
 [Install]
