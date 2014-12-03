@@ -1,0 +1,9 @@
+[Unit]
+Description=Set Up Multi Monitor
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/xrandr --output LVDS-1 --mode 1280x800 --pos 0x224 --rotate normal --output HDMI-1 --off --output VGA-1 --mode 1280x1024 --pos 1280x0 --rotate normal
+
+[Install]
+WantedBy=graphical.target
